@@ -1,0 +1,157 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffff00;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #ffff00;
+}
+
+/* ESTILO CABEÇALHO */
+header {
+    padding: 20px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.08);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.contato button:hover {
+    box-shadow: 0px 0px 18px #ffff00;
+    transform: scale(1.08);
+}
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site .txt-topo-site h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #ffff00;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 3s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* ESTILO DAS CERTIFICAÇÕES */
+
+section.certificacoes {
+    padding: 40px 4%;
+}
+
+section.certificacoes .flex {
+    gap: 60px;
+}
+
+.certificacoes .certificacoes-box {
+    color: #fff;
+    padding: 40px;
+    border: 2px solid #000000;
+    margin-top: 40px;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.certificacoes .certificacoes-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+}
+
+.certificacoes .certificacoes-box i {
+    font-size: 60px;
+    color: #ffff00;
+}
+
+.certificacoes .certificacoes-box h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+}
