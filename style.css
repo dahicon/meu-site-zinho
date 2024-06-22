@@ -42,6 +42,11 @@ h2.titulo span {
     color: #ffff00;
 }
 
+button:hover {
+    box-shadow: 0px 0px 18px #ffff00;
+    transform: scale(1.08);
+}
+
 /* ESTILO CABEÇALHO */
 header {
     padding: 20px 4%;
@@ -74,15 +79,10 @@ header nav ul li {
     padding: 0 40px;
 }
 
-.contato button:hover {
-    box-shadow: 0px 0px 18px #ffff00;
-    transform: scale(1.08);
-}
-
 /* ESTILO DO TOPO DO SITE */
 
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 5px 4%;
 }
 
 section.topo-do-site .flex {
@@ -154,4 +154,55 @@ section.certificacoes .flex {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px 0;
+}
+
+/* EDITAR A FOO SOBRE */
+
+.imagem-arredo {
+    width: 378px;
+    height: 378px;
+    border-radius: 30px;
+}
+
+/* ESTILO DO SOBRE */
+
+section.Sobre {
+    padding: 80px 4%;
+}
+
+section.Sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.Sobre .txt-sobre {
+    color: #fff;
+}
+
+.Sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+
+.Sobre .txt-sobre h2 span {
+    color: #ffff00;
+    display: block;
+}
+
+.Sobre .txt-sobre p {
+    margin: 25px 0;
+    text-align: justify;
+}
+
+.Sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #ffff00;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 4px;
+    transition: 0.2s;
 }
