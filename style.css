@@ -307,47 +307,57 @@ form .btn-enviar input {
 
 /* ESTILO DO RODAPÉ */
 
-footer{
+footer {
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
-footer .flex{
+footer .flex {
     justify-content: space-between;
     flex-direction: row;
 }
 
-footer .line-footer{
+footer .line-footer {
     padding: 20px 0;
 }
 
-.borda{
+.borda {
     border-top: 2px solid #ffff00;
 }
 
-footer .line-footer p i{
+footer .line-footer p i {
     color: #ffff00;
     font-size: 25px;
 }
 
-footer .line-footer p a{
+footer .line-footer p a {
     color: #fff;
 }
 
-@media screen and (max-width: 1020px){
-
+@media screen and (max-width: 1020px) {
     /* CLASSES GERAIS */
 
-    .flex{
+    .flex {
         flex-direction: column;
     }
 
-    .topo-do-site .flex{
+    .topo-do-site .flex {
         flex-direction: column-reverse;
     }
 
     /* CABEÇALHO */
-    .menu-desktop, .contato{
+    .menu-desktop,
+    .contato {
         display: none;
+    }
+
+    /* TOPO DO SITE */
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .txt-topo-site h1 {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
