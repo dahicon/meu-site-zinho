@@ -314,7 +314,6 @@ footer {
 
 footer .flex {
     justify-content: space-between;
-    flex-direction: row;
 }
 
 footer .line-footer {
@@ -341,6 +340,11 @@ footer .line-footer p a {
         flex-direction: column;
     }
 
+    h2.titulo {
+        font-size: 28px;
+        line-height: 26px;
+    }
+
     .topo-do-site .flex {
         flex-direction: column-reverse;
     }
@@ -352,6 +356,13 @@ footer .line-footer p a {
     }
 
     /* TOPO DO SITE */
+
+    section.topo-do-site .flex {
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
     section.topo-do-site {
         padding: 20px 8%;
     }
@@ -359,5 +370,65 @@ footer .line-footer p a {
     .topo-do-site .txt-topo-site h1 {
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+    }
+
+    /* ESTILO DAS CERTIFICAÇÕES */
+
+    section.certificacoes {
+        padding: 40px 10%;
+    }
+
+    /* ESTILO DO SOBRE */
+
+    section.Sobre {
+        padding: 80px 10%;
+    }
+
+    .Sobre .txt-sobre h2 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .btn-social {
+        text-align: center;
+    }
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    /* PORTIFOLIO */
+    section.portifolio {
+        padding: 80px 10%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portifolio .flex {
+        gap: 50px;
+    }
+
+    /* rodape */
+
+    footer .line-footer p i {
+        text-align: center;
+    }
+
+    footer .flex {
+        flex-direction: column;
+
+    }
+
+    footer .line-footer {
+        text-align: center;
     }
 }
