@@ -314,6 +314,7 @@ footer{
 
 footer .flex{
     justify-content: space-between;
+    flex-direction: row;
 }
 
 footer .line-footer{
@@ -333,3 +334,20 @@ footer .line-footer p a{
     color: #fff;
 }
 
+@media screen and (max-width: 1020px){
+
+    /* CLASSES GERAIS */
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO */
+    .menu-desktop, .contato{
+        display: none;
+    }
+}
